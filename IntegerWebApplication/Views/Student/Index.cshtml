@@ -1,13 +1,31 @@
 ﻿@model List<Student>;
 
-<p>This is Page of Student</p>
+<p>This is Page Student of C# Lanjutan</p>
+@*<style>
+    td,th{
+        border : 1px solid;
+        
+    }
+</style>*@
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Address</th>
+        <th>Phone</th>
+    </tr>
+    @foreach (var data in Model)
+    {
+        <tr>
+            <td>@data.Id</td>
+            <td>@data.Name</td>
+            <td>@data.Gender</td>
+            <td>@data.Address</td>
+            <td>@data.PhoneNumber</td>
+        </tr>   
+    }
 
-@foreach (var data in Model)
-{
-    <p>Id = @data.Id</p>
-    <p>Name = @data.Name</p>
-    <p>Address = @data.Address</p>
-    <p>Phone Number = @data.PhoneNumber</p>
-    <hr />
-}
+</table>
+
 
