@@ -12,7 +12,7 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 1,
-                Name = "Agus",
+                Name = "Agus Rahman",
                 Gender = "Laki-laki",
                 Address = "Ciamis",
                 PhoneNumber = "081224712129"
@@ -21,7 +21,7 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 2,
-                Name = "Toyyib",
+                Name = "Toyyib Hendrasto",
                 Gender = "Laki-laki",
                 Address = "Banyumas",
                 PhoneNumber = "088190025142"
@@ -39,7 +39,7 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 4,
-                Name = "Fauzi",
+                Name = "Achmad Fauzi",
                 Gender = "Laki-laki",
                 Address = "Cianjur",
                 PhoneNumber = "081267443001"
@@ -48,7 +48,7 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 5,
-                Name = "Suci",
+                Name = "Suci Amanah",
                 Gender = "Perempuan",
                 Address = "Banjar",
                 PhoneNumber = "081866410923"
@@ -57,7 +57,7 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 6,
-                Name = "Sawal",
+                Name = "Sawal Udin",
                 Gender = "Laki-laki",
                 Address = "Padang Sidimpuan",
                 PhoneNumber = "088132555622"
@@ -66,16 +66,16 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 7,
-                Name = "Dede Adam",
+                Name = "Dede Adam Alamsyah",
                 Gender = "Laki-laki",
-                Address = "Banjar",
+                Address = "Banjarsari",
                 PhoneNumber = "081534412027"
             });
 
             student.Add(new Student()
             {
                 Id = 8,
-                Name = "Naily",
+                Name = "Naily Rina P",
                 Gender = "Perempuan",
                 Address = "Banyumas",
                 PhoneNumber = "085538309971"
@@ -84,7 +84,7 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 9,
-                Name = "Helmi",
+                Name = "Helmi T Edyan",
                 Gender = "Laki-laki",
                 Address = "Banjar",
                 PhoneNumber = "087439003121"
@@ -93,7 +93,7 @@ namespace IntegerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 10,
-                Name = "Melani",
+                Name = "Melani Putri",
                 Gender = "Perempuan",
                 Address = "Banjar",
                 PhoneNumber = "081200726762"
