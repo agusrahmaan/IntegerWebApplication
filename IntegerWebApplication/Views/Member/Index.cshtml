@@ -1,0 +1,21 @@
+﻿@model List<Member>;
+
+    <p>This is Member of Integer Generation</p>
+
+    <table class="table-bordered">
+        <tr>
+            <th>Member ID</th>
+            <th>Name</th>
+            <th>Division</th>
+            <th>Position</th>
+        </tr>
+        @foreach(var data in Model)
+        {
+            <tr>
+                <td>@data.MemberId</td>
+                <td>@data.Name</td>
+                <td>@data.Division</td>
+                <td>@data.Position</td>
+            </tr>
+        }
+    </table>
